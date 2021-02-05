@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE4A07F325C965670046182B /* 可愛い足音.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE4A07F225C965670046182B /* 可愛い足音.mp3 */; };
+		CE4A07F625C96B7F0046182B /* バタンと倒れる.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE4A07F525C96B7F0046182B /* バタンと倒れる.mp3 */; };
+		CE714A3125CACFF50007919F /* 小さな冒険.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE714A3025CACFF50007919F /* 小さな冒険.mp3 */; };
+		CECE149C25CD562F00C36B29 /* アイテム取得音.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CECE149B25CD562F00C36B29 /* アイテム取得音.mp3 */; };
 		CED736A125C64C3500280904 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED736A025C64C3500280904 /* AppDelegate.swift */; };
 		CED736A325C64C3500280904 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED736A225C64C3500280904 /* SceneDelegate.swift */; };
 		CED736A525C64C3500280904 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED736A425C64C3500280904 /* ViewController.swift */; };
 		CED736A825C64C3500280904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED736A625C64C3500280904 /* Main.storyboard */; };
 		CED736AA25C64C3600280904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED736A925C64C3600280904 /* Assets.xcassets */; };
 		CED736AD25C64C3600280904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED736AB25C64C3600280904 /* LaunchScreen.storyboard */; };
+		CED736B725C64FF000280904 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED736B625C64FF000280904 /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE4A07F225C965670046182B /* 可愛い足音.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "可愛い足音.mp3"; sourceTree = "<group>"; };
+		CE4A07F525C96B7F0046182B /* バタンと倒れる.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "バタンと倒れる.mp3"; sourceTree = "<group>"; };
+		CE714A3025CACFF50007919F /* 小さな冒険.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "小さな冒険.mp3"; sourceTree = "<group>"; };
+		CECE149B25CD562F00C36B29 /* アイテム取得音.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "アイテム取得音.mp3"; sourceTree = "<group>"; };
 		CED7369D25C64C3400280904 /* FlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED736A025C64C3500280904 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CED736A225C64C3500280904 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,7 @@
 		CED736A925C64C3600280904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED736AC25C64C3600280904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CED736AE25C64C3600280904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED736B625C64FF000280904 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\bGameScene.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +69,15 @@
 				CED736A025C64C3500280904 /* AppDelegate.swift */,
 				CED736A225C64C3500280904 /* SceneDelegate.swift */,
 				CED736A425C64C3500280904 /* ViewController.swift */,
+				CED736B625C64FF000280904 /* GameScene.swift */,
 				CED736A625C64C3500280904 /* Main.storyboard */,
 				CED736A925C64C3600280904 /* Assets.xcassets */,
 				CED736AB25C64C3600280904 /* LaunchScreen.storyboard */,
 				CED736AE25C64C3600280904 /* Info.plist */,
+				CE4A07F225C965670046182B /* 可愛い足音.mp3 */,
+				CE4A07F525C96B7F0046182B /* バタンと倒れる.mp3 */,
+				CE714A3025CACFF50007919F /* 小さな冒険.mp3 */,
+				CECE149B25CD562F00C36B29 /* アイテム取得音.mp3 */,
 			);
 			path = FlappyBird;
 			sourceTree = "<group>";
@@ -102,7 +117,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CED7369825C64C3400280904 /* Build configuration list for PBXProject "FlappyBird" */;
+			buildConfigurationList = CED7369825C64C3400280904 /* Build configuration list for PBXProject "FlappyBird_2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,6 +143,10 @@
 				CED736AD25C64C3600280904 /* LaunchScreen.storyboard in Resources */,
 				CED736AA25C64C3600280904 /* Assets.xcassets in Resources */,
 				CED736A825C64C3500280904 /* Main.storyboard in Resources */,
+				CE4A07F625C96B7F0046182B /* バタンと倒れる.mp3 in Resources */,
+				CE4A07F325C965670046182B /* 可愛い足音.mp3 in Resources */,
+				CE714A3125CACFF50007919F /* 小さな冒険.mp3 in Resources */,
+				CECE149C25CD562F00C36B29 /* アイテム取得音.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +160,7 @@
 				CED736A525C64C3500280904 /* ViewController.swift in Sources */,
 				CED736A125C64C3500280904 /* AppDelegate.swift in Sources */,
 				CED736A325C64C3500280904 /* SceneDelegate.swift in Sources */,
+				CED736B725C64FF000280904 /* GameScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U9K9UNZPUA;
 				INFOPLIST_FILE = FlappyBird/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.takeshi-2983.FlappyBird";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,6 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U9K9UNZPUA;
 				INFOPLIST_FILE = FlappyBird/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,14 +332,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.takeshi-2983.FlappyBird";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CED7369825C64C3400280904 /* Build configuration list for PBXProject "FlappyBird" */ = {
+		CED7369825C64C3400280904 /* Build configuration list for PBXProject "FlappyBird_2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CED736AF25C64C3600280904 /* Debug */,
